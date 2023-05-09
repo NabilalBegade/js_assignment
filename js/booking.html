@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+
+<body>
+    <header>
+
+        <h1>Movie Ticket Booking</h1>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="now-showing.html">Now Showing</a></li>
+            <li><a href="booking.html">Booking</a></li>
+        </ul>
+    </nav>
+    <div class="countdown-container">
+        <h3>Next Show Starts In:
+            <div id="countdown" class="countdown"></div>
+        </h3>
+
+
+        <ul id="show-times">
+            <li>11:00 AM</li>
+            <li>3:00 PM</li>
+            <li>8:00 PM</li>
+        </ul>
+    </div>
+
+    <div class="movie-container">
+        <label> Select a movie:</label>
+        <select id="movie">
+          <option value="220">avengers endgame (RS.220)</option>
+          <option value="320">iron man (RS.320)</option>
+          <option value="250">ant man(RS.250)</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Available</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat sold"></div>
+            <small>Sold</small>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+        </div>
+
+
+    </div>
+
+    <p class="text">
+        You have selected <span id="count">0</span> seat for a price of RS.<span id="total">0</span>
+    </p>
+    <script src="booking.js"></script>
+
+
+    <footer>
+        <p>&copy; 2023 Movie Ticket Booking. All rights reserved.</p>
+    </footer>
+
+
+</body>
+
+</html>

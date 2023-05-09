@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Now Showing</title>
+    <link rel="stylesheet" href="now-showing.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="now-showing.html">Now Showing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Showtime - Movie Ticket Booking System</h1>
+
+            <div class="movie-search">
+                <label for="search-input">Search by Title:</label>
+                <input type="text" id="search-input">
+                <button id="search-button">Search</button>
+            </div>
+
+            <div class="movie-filter">
+                <label for="genre-select">Filter by Genre:</label>
+                <select id="genre-select">
+                <option value="all">All Genres</option>
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="sci-fi">Sci-Fi</option>
+              </select>
+            </div>
+
+            <div class="movie-list">
+                <!-- Movie list will be dynamically generated here -->
+            </div>
+        </div>
+    </main>
+    <script src="jsnow.js"></script>
+
+    <footer>
+        <p>&copy; 2023 My Movie Theater</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

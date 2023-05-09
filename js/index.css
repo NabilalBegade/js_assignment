@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 7%;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+/* Dropdown styling */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #333;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #999;
+}
+
+option {
+    background-color: #fff;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.button {
+    display: inline-block;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #d00;
+}
+
+footer {
+    background-color: #eee;
+    color: #444;
+    padding: 10px;
+    text-align: center;
+}
